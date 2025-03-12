@@ -2,3 +2,5 @@ Seeing that many people solved this challenge, I gave it a shot, despite not bei
 Which contains a bash script which looked very similar to how the server works. And given that the name of the CTF is in the title, I googled "HackIM CTF 2023 writeups funsafe" and found:
 https://ctftime.org/writeup/37804
 Used the payload and it worked.
+
+`CTF{f666ded66f578ceaa00a2ac4f2f9b8f5d393f75c5fd1e8cdd5dbbd8a057fa19c}`
