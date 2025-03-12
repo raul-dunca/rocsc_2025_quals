@@ -1,4 +1,4 @@
-<img src="https://github.com/raul-dunca/rocsc_2025_quals/blob/main/.assets/th-job_descripiton.png">
+<img src="https://github.com/raul-dunca/rocsc_2025_quals/blob/main/.assets/th-job_description.png"> 
 
 **Q2. What is the sub Technique for the behaviour?**
 
