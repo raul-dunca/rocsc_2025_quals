@@ -37,7 +37,7 @@ Output:
 flag.txt run.sh server.py testfile.txt
 ```
 
-Nice, now I just need to `cat flag.txt`, but as I said before a match was needed for the character to be added to `command to system()` or for that character to be the name of the rule (and you can’t name a rule: “ “) and the testfile.txt from the server did not contain a space in it, so I had to find an alternative approach. I tried to run `cat${IFS}flag.txt` ($IFS is an environment variable which contains separators):
+Nice, now I just need to `cat flag.txt`, but as I said before a match was needed for the character to be added to `command to system()` or for that character to be the name of the rule (and you can’t name a rule: “ “) and the `testfile.txt` from the server did not contain a space in it, so I had to find an alternative approach. I tried to run `cat${IFS}flag.txt` ($IFS is an environment variable which contains separators):
 
 ```txt
 rule ListFiles { strings: $txt = "c" condition: $txt }
