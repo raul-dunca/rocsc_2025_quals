@@ -37,6 +37,4 @@ print(out)
 
 Decoded the output using: https://www.dcode.fr/decabit-code, which returns the flag in reverse order.
 
-
-
 `ctf{b3d7630e73726a79f39210a8c5e170aa1da595404aacbf0c765501c8c3257e5b}`
