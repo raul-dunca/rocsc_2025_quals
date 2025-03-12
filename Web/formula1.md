@@ -55,6 +55,7 @@ for password in passwords:
     else:
          print(f"[-] Ignoring response from {password} (Internal Server Error)")
 ```
+
 While the script was running, I randomly tried to send another request in my browser to `login_process.php` with a random username and password, I got as a response the expected: “Invalid username. Try again”, but when I hit back on my browser, I was at `flag.php`. At first, I thought this was a bug and not the intended solution, but I now believe it was an intentional race condition behind.
 Important note: In the password script the `Cookie` header should match the browser cookie, so the race condition is triggered.
 
